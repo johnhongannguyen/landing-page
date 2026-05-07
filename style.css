@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-.header{
+.header,footer{
     display: flex;
     flex-direction: column;
-
+    justify-content: center;
+    background-color: #1F2937;
 }
 .upper-header{
     display:flex;
@@ -15,7 +16,13 @@
 }
 .header-logo{
     margin-left: 32px;
+    font-size: 18px;
+    color: #f9faf8;
 
+}
+nav{
+   font-size: 18px;
+    color: #f9faf8; 
 }
 ul{
     text-decoration: none;
@@ -23,9 +30,18 @@ ul{
     display: flex;
     justify-content: space-around;
     gap: 16px;
-    margin-left: 32px;
+    margin-right: 32px;
 }
 img{
     width: 100%;
     max-width: 300px;
+}
+.header-content h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900px;
+}
+.header-content p{
+    font-size: 18px;
+    color: #e5e7eb;
 }

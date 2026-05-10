@@ -76,3 +76,7 @@ img{
     color: #f9faf8;
     font-weight: 900px;
 }
+
+.containers{
+    display:flex;
+}

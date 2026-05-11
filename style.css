@@ -109,3 +109,29 @@ img{
     text-align: center;
     font-size: 15px;
 }
+
+.quote-info{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+.quote-sentence{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 400px 0 400px;
+    font-size: 36px;
+    font-weight: 300;
+
+    
+}
+.quote-author{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 450px 30px 0;
+    font-size: 36px;
+    font-weight: 900;
+}

@@ -40,7 +40,7 @@ ul{
 }
 img{
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
 }
 .header-content{
     padding: 30px;
@@ -77,6 +77,35 @@ img{
     font-weight: 900px;
 }
 
+.random-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.info-title h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
 .containers{
     display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+   
+}
+.card p{
+    text-align: center;
+    font-size: 15px;
 }

@@ -139,4 +139,23 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3882F6;
+    width: 500px;
+    /* margin: 0 20px 0 500px; */
+    text-align: center;
+
+}
+.cta-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color:#e5e7eb;
 }
